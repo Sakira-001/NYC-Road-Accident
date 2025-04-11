@@ -12,7 +12,7 @@ This project analyzes traffic collision data in New York City to identify trends
 6. [Insights & Conclusions](#insights--conclusions)
 7. [Tools & Techniques Used](#tools--techniques-used)
 8. [Questions & Answers](#questions--answers)
-9. [Recommendation](#)
+9. [Recommendation](#Recommendation)
 10. [Author](#author)
 
 ---
@@ -136,7 +136,7 @@ Vehicle 1)? What about fatal accidents specifically?
 
 ---
 
-##Recommendation
+## Recommendation
 1. Enhance Driver Awareness & Distraction Prevention Campaigns: Implementing stricter penalties for distracted driving and Conducting public awareness campaigns on focused driving and accident prevention.
 2. Improve Traffic Control & Law Enforcement: Increase traffic patrols in high-collision areas and Enforce speed limits, right-of-way laws, and lane discipline more strictly.
 3. Develop Safer Infrastructure for Cyclists & Pedestrians: Expand dedicated bike lanes and pedestrian-friendly zones and Install more traffic calming measures (e.g., speed bumps, pedestrian islands).
