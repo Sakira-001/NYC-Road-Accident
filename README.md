@@ -11,10 +11,9 @@ This project analyzes traffic collision data in New York City to identify trends
 5. [Key Metrics](#key-metrics)
 6. [Insights & Conclusions](#insights--conclusions)
 7. [Tools & Techniques Used](#tools--techniques-used)
-8. [How to Use the Dashboard](#how-to-use-the-dashboard)
-9. [Questions & Answers](#questions--answers)
-10. [Conclusions]
-11. [Author](#author)
+8. [Questions & Answers](#questions--answers)
+9. [Recommendation](#)
+10. [Author](#author)
 
 ---
 
@@ -95,74 +94,58 @@ The raw data for this dashboard includes a comprehensive dataset of employee det
 ---
 
 ## Insights & Conclusions
-1. **Attrition Trends**:
-   - Employees with Bachelor's degrees face the highest attrition (99 employees).
-   - Job roles like "Sales Executive" are particularly prone to attrition.
-
-2. **Demographics**:
-   - The majority of employees are female (882 out of 1,470).
-   - Most employees fall within the 25-34 age group, indicating a younger workforce.
-
-3. **Department Analysis**:
-   - The HR department has the lowest attrition rate.
-   - R&D experiences moderate attrition, while Sales have the highest attrition rate.
-
-4. **Job Satisfaction**:
-   - With a 2.6-star rating, there is significant room for improvement in employee satisfaction.
-
-5. **Marital Status**:
-   - Single employees show the highest attrition (470 employees), followed by married ones (473).
-
-6. **Education Field**:
-   - Employees from technical and marketing backgrounds exhibit varying attrition rates.
+1. **Leading Causes of Collisions**:
+   - The top contributing factor to collisions is "Unspecified", meaning a lack of detailed reporting.
+   - Driver inattention/distraction is the most reported cause, emphasizing the need for awareness campaigns on focused driving.
+2. **Fatalities Across Boroughs**:
+   - Brooklyn has the highest fatalities among pedestrians, motorists, and cyclists.
+   - Motorists experience the most fatalities overall, suggesting that driver safety improvements are needed.
+3. **Vehicle Types in Collisions**:
+   - Passenger vehicles account for the highest number of collisions, far exceeding any other vehicle type across all boroughs.
+   - Bicycles, taxis, motorcycles, and buses contribute to accidents but at significantly lower numbers compared to passenger vehicles.
+   - Brooklyn leads in overall collisions, followed by Queens and the Bronx, possibly due to higher traffic density and population.
 
 ---
 
 ## Tools & Techniques Used
-1. **Microsoft Excel**:
-   - **Pivot Tables** for data summarization.
-   - **Charts** for visual representation of insights.
-   - **Slicers** for interactive filtering.
-2. **Microsoft Powerpoint**: for creating visual dashboard
-3. **Formatting & Styling**:
-   - Custom slicer styles and chart designs.
-   - Adjustments to align and group dashboard elements for a professional layout.
-4. **Data Editing**:
-   - Cleaned and structured raw HR data to ensure accuracy.
-5. **Paint**: For dashboard screenshot edit.
-
----
-
-## How to Use the Dashboard
-1. **Filter Data**:
-   - Use slicers on the right to filter data by department, job roles, or education field.
-2. **Analyze Metrics**:
-   - View key statistics and graphs to identify patterns and trends.
-3. **Draw Insights**:
-   - Utilize visualizations to make informed HR decisions.
+1. **Power BI**:
+   - Power Query Editor for extensive data cleaning and transformation.
+   - DAX (Data Analysis Expressions) to calculate key metrics like total collisions, injuries, fatalities, and percentage breakdowns.
+   - Slicers for dynamic filtering by borough, vehicle type, month, and contributing factors.
+   - Custom Visuals including bar charts, pie charts, stacked columns, KPIs, and heatmaps for clear insight presentation.
+2. **Figma**: Designed visual mockups and layout guides to ensure a clean, user-friendly dashboard interface.
 
 ---
 
 ## Questions & Answers
-### Q1: What type of data was used to create this dashboard?
-**A**: The dashboard is based on raw HR data containing employee demographics, job roles, education, and attrition details.
+### Q1: Compare the % of total accidents by month. Do you notice any seasonal patterns? 
+**A**: Yes, a clear seasonal pattern emerges. The highest percentage of accidents occurred in October, followed by June and August. The months with the lowest accident rates were February and January.
 
-### Q2: How can I filter data by department?
-**Ans**: Click on the department slicer and select the desired department(s). The dashboard will automatically update.
+### Q2: Break down accident frequency by day of week and hour of day. Based on this data, when do accidents occur most frequently?
+**Ans**: - Accidents peak sharply around midnight (12:00 AM) — likely due to the timestamp default or batch reporting practices — followed by a steady increase from 6:00 AM, with consistent spikes between 8:00 AM to 6:00 PM, especially around 3:00 PM to 6:00 PM, coinciding with afternoon rush hours.
+         - By Day of Week: Fridays have the highest accident frequency, followed closely by Thursdays and Wednesdays.
+Weekends (especially Sundays) see fewer incidents, likely due to reduced commuting traffic.
 
-### Q3: What does the attrition rate indicate?
-**Ans**: The attrition rate (16.12%) shows the percentage of employees who left the company out of the total workforce.
+### Q3:  On which particular street were the most accidents reported? What does that represent as a % of all reported accidents? 
+**Ans**: The street with the most reported accidents was Brooklyn.
 
-### Q4: How was the average age calculated?
-**Ans**: The average age was calculated using a simple arithmetic mean formula in Excel.
-
-### Q5: Can I update the dashboard with new data?
-**Ans**: Yes, replace the data in the source table and refresh all pivot tables to update the dashboard.
+### Q4: What was the most common contributing factor for the accidents reported in this sample (based on 
+Vehicle 1)? What about fatal accidents specifically?  
+**Ans**: - The most common contributing factor across all accidents (based on Vehicle 1) was Unspecified.
+         - For fatal accidents specifically, the leading contributing factor remained Unspecified.
 
 ---
 
+##Recommendation
+1. Enhance Driver Awareness & Distraction Prevention Campaigns: Implementing stricter penalties for distracted driving and Conducting public awareness campaigns on focused driving and accident prevention.
+2. Improve Traffic Control & Law Enforcement: Increase traffic patrols in high-collision areas and Enforce speed limits, right-of-way laws, and lane discipline more strictly.
+3. Develop Safer Infrastructure for Cyclists & Pedestrians: Expand dedicated bike lanes and pedestrian-friendly zones and Install more traffic calming measures (e.g., speed bumps, pedestrian islands).
+4. Targeted Safety Measures in High-Collision Boroughs: Brooklyn & Queens: Implement city-wide road safety programs due to high fatalities.
+5. 
+---
+
 ## Author
-This project was created by [Bakare Sukurat Aderonke], a data analyst with expertise in creating Insightful dashboards and performing data analysis using tools like Excel, SQL,Python and Power-BI. I am passionate about uncovering trends and delivering actionable insights accross various domains. For more information, feel free to connect with me on LinkedIn. [www.linkedin.com/in/bakare-aderonke-5214712b2].
+This project was created by Sakira, a data analyst with a strong background in data storytelling, dashboard design, and analytical problem-solving. I specialize in using tools like Excel, Power BI, and SQL to transform raw data into actionable insights. I'm passionate about building user-centric dashboards that reveal trends, improve decision-making, and create impact across various industries.. [[www.linkedin.com/in/sakira-daodu-b44666275](https://www.linkedin.com/in/sakira-daodu-b44666275/)].
 
 ---
 
