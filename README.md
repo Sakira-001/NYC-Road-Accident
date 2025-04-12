@@ -150,5 +150,5 @@ This project was created by Sakira, a data analyst with a strong background in d
 ---
 
 ## Conclusion
-The HR Analytics Dashboard provides actionable insights into workforce composition, attrition, and job satisfaction. It serves as an effective tool for HR professionals to identify trends and implement strategies for workforce management.
+
 
