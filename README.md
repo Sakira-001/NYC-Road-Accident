@@ -141,14 +141,13 @@ Vehicle 1)? What about fatal accidents specifically?
 2. Improve Traffic Control & Law Enforcement: Increase traffic patrols in high-collision areas and Enforce speed limits, right-of-way laws, and lane discipline more strictly.
 3. Develop Safer Infrastructure for Cyclists & Pedestrians: Expand dedicated bike lanes and pedestrian-friendly zones and Install more traffic calming measures (e.g., speed bumps, pedestrian islands).
 4. Targeted Safety Measures in High-Collision Boroughs: Brooklyn & Queens: Implement city-wide road safety programs due to high fatalities.
-5. 
 ---
 
 ## Author
-This project was created by Sakira, a data analyst with a strong background in data storytelling, dashboard design, and analytical problem-solving. I specialize in using tools like Excel, Power BI, and SQL to transform raw data into actionable insights. I'm passionate about building user-centric dashboards that reveal trends, improve decision-making, and create impact across various industries.. [[www.linkedin.com/in/sakira-daodu-b44666275](https://www.linkedin.com/in/sakira-daodu-b44666275/)].
+This project was created by Sakira, a data analyst with a strong background in data storytelling, dashboard design, and analytical problem-solving. I use tools like Excel, Power BI, and SQL to transform raw data into actionable insights. I'm passionate about building user-centric dashboards that reveal trends, improve decision-making, and create impact across various industries. [[www.linkedin.com/in/sakira-daodu-b44666275](https://www.linkedin.com/in/sakira-daodu-b44666275/)].
 
 ---
 
 ## Conclusion
-
+This project successfully analyzed NYC traffic accident data to identify key patterns and risk factors. The insights gathered can help inform safety initiatives, improve traffic management, and reduce accident occurrences through data-driven decisions.
 
