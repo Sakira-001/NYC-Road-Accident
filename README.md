@@ -24,7 +24,7 @@ This interactive dashboard comprehensively analyses traffic collisions across Ne
 ---
 
 ## Raw Data
-The raw data for this dashboard includes a comprehensive dataset of employee details from a fictional company. It consists of the following fields:
+The raw data for this dashboard includes a comprehensive dataset of the NYC Road Accident dataset. It consists of the following fields:
 
 1. **Collison ID**: A unique identifier for each collision record.
 2. **Date**: The date on which the collision occurred.
@@ -120,7 +120,7 @@ The raw data for this dashboard includes a comprehensive dataset of employee det
 
 ## Questions & Answers
 ### Q1: Compare the % of total accidents by month. Do you notice any seasonal patterns? 
-**A**: Yes, a clear seasonal pattern emerges. The highest percentage of accidents occurred in October, followed by June and August. The months with the lowest accident rates were February and January.
+**Ans**: Yes, a clear seasonal pattern emerges. The highest percentage of accidents occurred in October, followed by June and August. The months with the lowest accident rates were February and January.
 
 ### Q2: Break down accident frequency by day of week and hour of day. Based on this data, when do accidents occur most frequently?
 **Ans**: - Accidents peak sharply around midnight (12:00 AM) — likely due to the timestamp default or batch reporting practices — followed by a steady increase from 6:00 AM, with consistent spikes between 8:00 AM to 6:00 PM, especially around 3:00 PM to 6:00 PM, coinciding with afternoon rush hours.
