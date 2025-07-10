@@ -48,8 +48,8 @@ The raw data for this dashboard includes a comprehensive dataset of the NYC Road
 ### Data Cleaning Process in Power Query
 - **Removed Duplicates**: Identified and removed duplicate rows based on Collision ID to ensure each collision record is unique.
 - **Time Data Type**: Changed the time data type from Time & Date to Time only.
-- **Null**: Chabged the Null values in the Borough, Steet Name and Contributing factor column to "Unknown or "Unspecified".
-- **Find and Replace**: Used the Find and Replace to reduce the contents "Vehicle" and "Contributing Factors" columns.
+- **Null**: Changed the Null values in the Borough, Street Name and Contributing factor column to "Unknown or Unspecified".
+- **Find and Replace**: Used the Find and Replace to reduce the contents of the "Vehicle" and "Contributing Factors" columns.
 
 ---
 
@@ -138,9 +138,9 @@ Vehicle 1)? What about fatal accidents specifically?
 ---
 
 ## Recommendation
-1. Enhance Driver Awareness & Distraction Prevention Campaigns: Implementing stricter penalties for distracted driving and Conducting public awareness campaigns on focused driving and accident prevention.
-2. Improve Traffic Control & Law Enforcement: Increase traffic patrols in high-collision areas and Enforce speed limits, right-of-way laws, and lane discipline more strictly.
-3. Develop Safer Infrastructure for Cyclists & Pedestrians: Expand dedicated bike lanes and pedestrian-friendly zones and Install more traffic calming measures (e.g., speed bumps, pedestrian islands).
+1. Enhance Driver Awareness & Distraction Prevention Campaigns: Implementing stricter penalties for distracted driving and conducting public awareness campaigns on focused driving and accident prevention.
+2. Improve Traffic Control & Law Enforcement: Increase traffic patrols in high-collision areas and enforce speed limits, right-of-way laws, and lane discipline more strictly.
+3. Develop Safer Infrastructure for Cyclists & Pedestrians: Expand dedicated bike lanes and pedestrian-friendly zones and install more traffic calming measures (e.g., speed bumps, pedestrian islands).
 4. Targeted Safety Measures in High-Collision Boroughs: Brooklyn & Queens: Implement city-wide road safety programs due to high fatalities.
 ---
 
